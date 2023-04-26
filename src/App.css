@@ -1,0 +1,71 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgb(34, 0, 255), rgb(0, 225, 255));
+}
+
+.word {
+
+  font-size: 20px;
+  color: #19034d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 0 3px;
+  margin: 10px;
+  border-radius: 2px;
+  font-size: 25px;
+  color: #344151;
+  gap: 50px;
+  position: relative;
+}
+
+.design {
+  background-color: transparent;
+
+  text-align: center;
+
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 25px;
+  text-align: center;
+}
+
+.restart {
+  margin-top: 10px;
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px, rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px, rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px, rgba(57, 31, 91, 0.32) 4px 4px 16px;
+}
+
+.restart:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
